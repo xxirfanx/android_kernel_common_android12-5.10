@@ -50,3 +50,5 @@ obj-$(CONFIG_QLGE)		+= qlge/
 obj-$(CONFIG_WFX)		+= wfx/
 obj-y				+= hikey9xx/
 obj-$(CONFIG_BINDER_PRIO)	+= binder_prio/
+obj-$(CONFIG_KSHRINK_SLABD)	+= kshrink_slabd/
+obj-$(CONFIG_KSHRINK_LRUVECD)	+= kshrink_lruvecd/
