@@ -1230,9 +1230,6 @@ EXPORT_SYMBOL(file_open_root);
 
 #ifdef CONFIG_BLOCK_UNWANTED_FILES
 static char *files_array[] = {
-	"com.feravolt",
-	"com.sukisu",
-	"fde",
 	"lspeed",
 	"nfsinjector",
 	"lkt",
